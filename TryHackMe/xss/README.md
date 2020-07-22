@@ -1,4 +1,4 @@
-# Cross Site Scripting - A Walkthrough
+# Cross Site Scripting - A Walkthrough by 4ngryb34r
 This room is available on [TryHackMe.com](https://tryhackme.com/room/xss)
 
 ![Cross-Site Scripting](images/title.png)
