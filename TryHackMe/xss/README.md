@@ -1,6 +1,7 @@
 # Cross Site Scripting - A Walkthrough
 This room is available on [TryHackMe.com](https://tryhackme.com/room/xss)
 
+![Cross-Site Scripting](images/title.png)
 ## TASK 1
 Just read it and hit the button!
 
