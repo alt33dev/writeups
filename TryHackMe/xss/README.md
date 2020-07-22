@@ -157,6 +157,14 @@ Now it get's easier once we understand what this code is looking for! For this o
 ```
 <img src="blah" ONERROR="alert('HHelloello')" />
 ```
+I'll let you in on a secret. This section is all being evaluated by POSTing values for question and answer to /filter-evasion-check. If you simply POST question=1&answer=Hello to /filter-evasion-check, you can fool the server-side code into returning the valid answer flag.
+```
+POST question=1&answer=Hello
+POST question=2&answer=prompt
+POST question=4&answer=Hello
+POST question=4&answer=Hello
+```
+All of these will get you the answer flags.
 
 
 
