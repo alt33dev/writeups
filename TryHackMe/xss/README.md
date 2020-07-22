@@ -45,7 +45,7 @@ When we submit this, we are going to see the popups from the previous question b
 ### Question 5
 OK, now we are getting somewhere. Remember when we just displayed the contents of our cookie in an alert? That was pretty useless because it's *OUR* cookie. What if we want some other user's cookie so we could be seen as them on the system? We can do that!!
 In a real-world situation, we would set up a web server that would capture the requests that the comment we are about to put on the site is going to cause every user's browser to make. In this room, however, there is an easier method. Every request sent to /log/some_value_here will enter `some_value_here` to the logs which can be viewed on the /logs page. Super!!
-We need to be a bit careful, here. If we do what is suggested and modify the location, then every time we go to the page from now on it will try to forward us to that location. It's would also be a bit too obvious to the other users that something strange is going on.
+We need to be a bit careful, here. If we do what is suggested and modify the location, then every time we go to the page from now on it will try to forward us to that location. It would also be a bit too obvious to the other users that something strange is going on.
 Let's just do an img tag instead.
 ```
 <img src="javascript:'/log/' + document.cookie" />
